@@ -1,9 +1,16 @@
 from random import randint
 
-def draw_number(a=1, b=5):
+def draw_number(a=1, b=101):
+# """
+# function provides randomly chosen number
+# """
     return randint(a, b)
 
 def check_results():
+# """
+# function provides users input, check if it's valid and compares it to the number chosen by computer.
+# """
+
     drawn_number = draw_number()
 
     while True:
